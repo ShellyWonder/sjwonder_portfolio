@@ -1,0 +1,260 @@
+/*--custom fonts & Colors*/
+:root {
+    --title-font: 'Bebas Neue', sans-serif;
+    --subtitle-font: 'Fira Sans', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+    --sjw-primary-color: #91CBFB;
+    --sjw-secondary-color: #4294BA;
+    --sjw-dark-color: #212121;
+    --sjw-light-color: #dce4f2;
+    --sjw-font-size: 1.2rem;
+    --sjw-line-height: 1.5;
+    --sjw-font-weight: 400;
+    --sjw-nav-color: #a66658;
+    --sjw-btn-color: #f2b950;
+    --sjw-about-background: #BF584E;
+    --sjw-hover-color: #f2ca50;
+
+}
+
+/*--Element overrides--*/
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h2 {
+    font-family: var(--title-font);
+}
+
+
+
+nav,
+footer {
+    background-color: var(--sjw-nav-color);
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--sjw-dark-color);
+    background-color: var(--sjw-dark-color);
+    font-size: var(--sjw-font-size);
+    font-weight: var(--sjw-font-weight);
+    --webkit-text-size-adjust: 100%;
+
+}
+
+form {
+    background-color: var(--sjw-light-color);
+}
+
+.codeChallenges {
+    background: #f2ca50;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f2ca50, #f2b950);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f2ca50, #f2b950);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mainButton {
+    background-color: var(--sjw-btn-color);
+}
+
+button:hover {
+    color: var(--sjw-dark-color);
+}
+
+
+/* section background gradient*/
+.gradBG {
+    background: #BF584E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f2b950, #BF584E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f2b950, #BF584E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.aboutBG {
+    background-color: var(--sjw-about-background);
+}
+
+
+
+.mainTitle {
+    font-family: var(--title-font);
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+
+.mainLogo {
+    height: .6em;
+}
+
+.subTitle {
+    font-family: var(--subtitle-font);
+    font-size: .6rem;
+    line-height: .5rem;
+    font-weight: 100;
+    letter-spacing: .01rem;
+
+}
+
+.mainHeader {
+    padding-top: calc(2em + 74px);
+    background-image: url(/img/blue_banner_576.jpg);
+    height: 274px;
+    background-repeat: no-repeat;
+    background-position: left 0px top 74px;
+}
+
+.section-page {
+    height: 100%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+/*--project card styles--*/
+.projectCard {
+    width: 18rem;
+}
+
+.cTA {
+    width: 100%;
+    background-color: var(--sjw-dark-color);
+    color: var(--sjw-light-color);
+
+}
+
+/*Breakpts:
+2560x500
+1200x400
+992x300
+576x200
+375x150*/
+/*MEDIA QUERIES--*/
+/*small device (landscape phones 576px and up)*/
+@media (min-width: 575.98px) {
+    .mainHeader {
+        background-image: url(/img/blue_banner_768.jpg);
+        height: 274px;
+    }
+
+    .mainTitle {
+        font-family: var(--title-font);
+        font-size: 2rem;
+        line-height: 1.75rem;
+    }
+
+    .subTitle {
+        font-family: var(--title-font);
+        font-size: .7rem;
+        line-height: .5rem;
+        font-weight: 100;
+        letter-spacing: .05rem;
+
+    }
+}
+
+@media (min-width: 767.98px) {
+    .mainTitle {
+        font-family: var(--title-font);
+        font-size: 2.7rem;
+        line-height: 2rem;
+    }
+
+    .mainLogo {
+        height: .5em;
+    }
+
+    .mainHeader {
+        background-image: url(/img/blue_banner_992.jpg);
+        height: 374px;
+    }
+
+    .subTitle {
+        font-family: var(--title-font);
+        font-size: 1rem;
+        line-height: 1rem;
+        font-weight: 200;
+    }
+
+    @media (min-width: 991.98px) {
+        .mainTitle {
+            font-family: var(--title-font);
+            font-size: 3rem;
+            line-height: 2.5rem;
+        }
+
+        .mainLogo {
+            height: .7em;
+        }
+
+        .mainHeader {
+            background-image: url(/img/blue_banner_1200.jpg);
+            height: 474px;
+        }
+
+        .subTitle {
+            font-family: var(--title-font);
+            font-size: 1.2rem;
+            line-height: 1rem;
+            font-weight: 200;
+        }
+    }
+
+    @media (min-width: 1199.98px) {
+        .mainTitle {
+            font-family: var(--title-font);
+            font-size: 6rem;
+            line-height: 4.5rem;
+        }
+
+        .mainLogo {
+            height: .6em;
+        }
+
+        .mainHeader {
+            background-image: url(/img/blue_banner_2560.jpg);
+            height: 574px;
+        }
+
+        .subTitle {
+            font-family: var(--title-font);
+            font-size: 2.5rem;
+            line-height: 1.75rem;
+            font-weight: 100;
+        }
+    }
+
+    @media (min-width: 1399.98px) {
+        .mainHeader {
+            background-image: url(/img/blue_banner_2560.jpg);
+            height: 574px;
+        }
+
+        .mainTitle {
+            font-family: var(--title-font);
+            font-size: 6rem;
+            line-height: 4.5rem;
+        }
+
+        .mainLogo {
+            height: .6em;
+        }
+
+        .subTitle {
+            font-family: var(--title-font);
+            font-size: 2.5rem;
+            line-height: 1.75rem;
+            font-weight: 100;
+        }
+    }
+}
