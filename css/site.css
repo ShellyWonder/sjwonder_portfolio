@@ -94,6 +94,7 @@ button:hover {
     font-family: var(--title-font);
     font-size: 2rem;
     line-height: 1.5rem;
+    color: var(--sjw-light-color);
 }
 
 .mainLogoFont {
@@ -112,6 +113,7 @@ button:hover {
     line-height: .5rem;
     font-weight: 100;
     letter-spacing: .01rem;
+    color: var(--sjw-light-color);
 
 }
 
@@ -190,7 +192,7 @@ button:hover {
 
     .mainHeader {
         background-image: url(/img/wonder/intro-bg_992.jpg);
-        height: 374px;
+
     }
 
     .subTitle {
@@ -239,6 +241,7 @@ button:hover {
 
     @media (min-width: 1199.98px) {
         .mainTitle {
+            color: var(--sjw-dark-color);
             font-family: var(--title-font);
             font-size: 6rem;
             line-height: 4.5rem;
@@ -250,10 +253,11 @@ button:hover {
 
         .mainHeader {
             background-image: url(/img/wonder/intro-bg.jpg);
-            height: 574px;
+
         }
 
         .subTitle {
+            color: var(--sjw-dark-color);
             font-family: var(--title-font);
             font-size: 2.5rem;
             line-height: 1.75rem;
@@ -269,7 +273,7 @@ button:hover {
 
     @media (min-width: 1399.98px) {
         .mainHeader {
-            background-image: url(/img/blue_banner_2560.jpg);
+            background-image: url(/img/wonder/intro-bg.jpg);
             /*height: 574px;*/
         }
 
