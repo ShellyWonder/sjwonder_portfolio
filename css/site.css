@@ -1,5 +1,6 @@
 /*--custom fonts & Colors*/
 :root {
+    --sjw-SJLogo-font: 'export-stencil', sans-serif;
     --title-font: 'Bebas Neue', sans-serif;
     --subtitle-font: 'Fira Sans', sans-serif;
     --body-font: 'Roboto', sans-serif;
@@ -14,6 +15,7 @@
     --sjw-btn-color: #f2b950;
     --sjw-about-background: #BF584E;
     --sjw-hover-color: #f2ca50;
+
 
 }
 
@@ -94,6 +96,12 @@ button:hover {
     line-height: 1.5rem;
 }
 
+.mainLogoFont {
+    font-family: var(--sjw-SJLogo-font);
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+
 .mainLogo {
     height: .6em;
 }
@@ -109,7 +117,7 @@ button:hover {
 
 .mainHeader {
     padding-top: calc(2em + 74px);
-    background-image: url(/img/blue_banner_576.jpg);
+    background-image: url(/img/wonder/intro-bg_576.jpg);
     height: 274px;
     background-repeat: no-repeat;
     background-position: left 0px top 74px;
@@ -143,7 +151,7 @@ button:hover {
 /*small device (landscape phones 576px and up)*/
 @media (min-width: 575.98px) {
     .mainHeader {
-        background-image: url(/img/blue_banner_768.jpg);
+        background-image: url(/img/wonder/intro-bg_768.jpg);
         height: 274px;
     }
 
@@ -161,6 +169,12 @@ button:hover {
         letter-spacing: .05rem;
 
     }
+
+    .mainLogoFont {
+        font-family: var(--sjw-SJLogo-font);
+        font-size: 2rem;
+        line-height: 1.5rem;
+    }
 }
 
 @media (min-width: 767.98px) {
@@ -175,7 +189,7 @@ button:hover {
     }
 
     .mainHeader {
-        background-image: url(/img/blue_banner_992.jpg);
+        background-image: url(/img/wonder/intro-bg_992.jpg);
         height: 374px;
     }
 
@@ -185,6 +199,13 @@ button:hover {
         line-height: 1rem;
         font-weight: 200;
     }
+
+    .mainLogoFont {
+        font-family: var(--sjw-SJLogo-font);
+        font-size: 2rem;
+        line-height: 1.5rem;
+    }
+
 
     @media (min-width: 991.98px) {
         .mainTitle {
@@ -198,7 +219,7 @@ button:hover {
         }
 
         .mainHeader {
-            background-image: url(/img/blue_banner_1200.jpg);
+            background-image: url(/img/wonder/intro-bg_1200.jpg);
             height: 474px;
         }
 
@@ -207,6 +228,12 @@ button:hover {
             font-size: 1.2rem;
             line-height: 1rem;
             font-weight: 200;
+        }
+
+        .mainLogoFont {
+            font-family: var(--sjw-SJLogo-font);
+            font-size: 2rem;
+            line-height: 1.5rem;
         }
     }
 
@@ -222,7 +249,7 @@ button:hover {
         }
 
         .mainHeader {
-            background-image: url(/img/blue_banner_2560.jpg);
+            background-image: url(/img/wonder/intro-bg.jpg);
             height: 574px;
         }
 
@@ -232,12 +259,18 @@ button:hover {
             line-height: 1.75rem;
             font-weight: 100;
         }
+
+        .mainLogoFont {
+            font-family: var(--sjw-SJLogo-font);
+            font-size: 2rem;
+            line-height: 1.5rem;
+        }
     }
 
     @media (min-width: 1399.98px) {
         .mainHeader {
             background-image: url(/img/blue_banner_2560.jpg);
-            height: 574px;
+            /*height: 574px;*/
         }
 
         .mainTitle {
@@ -248,6 +281,12 @@ button:hover {
 
         .mainLogo {
             height: .6em;
+        }
+
+        .mainLogoFont {
+            font-family: var(--sjw-SJLogo-font);
+            font-size: 2rem;
+            line-height: 1.5rem;
         }
 
         .subTitle {
