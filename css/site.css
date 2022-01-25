@@ -36,7 +36,7 @@ h1,
 
 nav,
 footer {
-  background-color: var(--sjw-nav-color);
+  background-color: var(--sjw-dark-color);
 }
 
 body {
