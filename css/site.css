@@ -88,7 +88,7 @@ button:hover {
   line-height: 0.5rem;
   font-weight: 200;
   letter-spacing: 0.01rem;
-  color: var(--sjw-light-color);
+  color: var(--sjw-dark-color);
 }
 
 .mainHeader {
@@ -129,14 +129,14 @@ button:hover {
 @media (min-width: 575.98px) {
   .mainHeader {
     background-image: url(/img/SJW_Banner_576.jpg);
-    height: 274px;
+    height: 374px;
   }
 
   .mainTitle {
     font-family: var(--title-font);
     font-size: 2rem;
     line-height: 1.75rem;
-    color: var(--sjw-light-color);
+    color: var(--sjw-background-color);
   }
 
   .subTitle {
@@ -173,6 +173,7 @@ button:hover {
 
   .mainHeader {
     background-image: url(/img/SJW_Banner_992.jpg);
+    height: 474;
   }
 
   .subTitle {
