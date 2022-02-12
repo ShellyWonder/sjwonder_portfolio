@@ -4,8 +4,6 @@
   --title-font: "Bebas Neue", sans-serif;
   --subtitle-font: "Fira Sans", sans-serif;
   --body-font: "Roboto", sans-serif;
-  --sjw-primary-color: #91cbfb;
-  --sjw-secondary-color: #4294ba;
   --sjw-dark-color: #110120;
   --sjw-light-color: #dce4f2;
   --sjw-font-size: 1.2rem;
@@ -13,7 +11,6 @@
   --sjw-font-weight: 400;
   --sjw-btn-color: #f2b950;
   --sjw-background-color: #01092b;
-
   --sjw-hover-color: #f2ca50;
 }
 
@@ -31,6 +28,13 @@ h2,
 h1,
 .h2 {
   font-family: var(--title-font);
+}
+h3,
+h5 {
+  color: #01092b;
+}
+#white {
+  color: white;
 }
 
 nav,
@@ -119,6 +123,10 @@ form:hover {
 /*--project card styles--*/
 .projectCard {
   width: 18rem;
+}
+
+.cardBKGD {
+  background-color: whitesmoke;
 }
 
 .card:hover {
