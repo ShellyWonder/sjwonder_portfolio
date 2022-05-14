@@ -34,8 +34,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand mainLogoFont" href="#contact">
-                <img src="/img/wonder/logoMarkWhite.png" height="50" alt="SJ Wonder Logo"> JUST ADD WONDER
+            <a class="navbar-brand mainLogoFont" href="#contact" data-tilt>
+                <img src="/img/wonder/logoMarkWhite.png" height="50" alt="SJ Wonder Logo" > JUST ADD WONDER
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,7 +84,7 @@
     <!--ALL SECTIONS BELOW-->
     <main class="container-fluid g-0">
         <section class="section-page" id="about" >
-            <div class="text-light aboutBG pt-3 ps-2 pe-2 pe-md-0 ps-md-0">
+            <div class="text-light aboutBG pt-3 ps-2 pe-2 pe-md-0 ps-md-0 ">
                 <div class="container">
                     <h1>About Me</h1>
                     <div class="row">
@@ -93,7 +93,7 @@
                                 <source srcset="/img/SJ_image_992.png" media="(min-width: 991.98px)">
                                 <source srcset="/img/SJ_image_576.jpg" media="(min-width: 575.98px)">
                                 <source srcset="/img/SJ_image_768.jpg" media="(min-width: 767.98px)">
-                                <img src="/img/SJ_image_600.png" class="rounded-3 border border-2 border-dark img-fluid" />
+                                <img src="/img/SJ_image_600.png" class="rounded-3 border border-2 border-dark img-fluid" data-tilt />
                             </picture>
                         </div>
                         <div class="col-12 col-md-8 h-100">
@@ -858,6 +858,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
+    <!--Tilt.Js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
     <script>
         window.addEventListener('DOMContentLoaded', event => {
             // Navbar shrink function
