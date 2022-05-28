@@ -247,8 +247,25 @@
                     </div>
                     <!--PROJECT CARDS-->
                     <div class="row row-cols-1 row-cols-md-3 gy-3">
+                        <!--Bug Tracker PROJECT-->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card projectCard shadow p-3 mb-5 bg-body rounded">
+                                <img src="/img/atlas_logo.jpg" class="card-img-top img-fluid" alt="under construction logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Atlas Tracker</h5>
+                                    <p class="card-text">Problems? No Problem! Here is a full-stack bug tracker built with ASP.NET, MVC, C# and SQL.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <!-- <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#AtlasTrackerModal">Coming Soon</button> -->
+                                        <div class="mainButton btn rounded-pill">Coming Soon</div>
+                                </div>
+
+                            </div>
+                        </div>
                         <!--ADDRESS BOOK-->
-                        <div class="col d-flex justify-content-center justify-content-md-start">
+                        <div class="col d-flex justify-content-center">
                             <div class="card projectCard shadow p-3 mb-5 bg-body rounded">
                                 <img src="/img/black_book_ pro_navy.png" class="card-img-top img-fluid"
                                     alt="Black Book Pro logo">
@@ -261,14 +278,14 @@
                                 </div>
                                 <div class="card-footer text-center">
                                     <!--insert modal target-->
-                                    <!-- <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
-                                        data-bs-target="#AtlasAddressBookModal">Coming Soon!</button> -->
-                                        <div class="mainButton btn rounded-pill">Coming Soon</div>
+                                     <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#AtlasAddressBookModal">Check it Out!</button> 
+                                        <!-- <div class="mainButton btn rounded-pill">Coming Soon</div> -->
                                 </div>
                             </div>
                         </div>
+                        <!--BLOG Site-->
                         <div class="col d-flex justify-content-center">
-                            <!--BLOG Site-->
                             <div class="card projectCard shadow p-3 mb-5 bg-body rounded">
                                 <img src="/img/tech_blog_logo.jpg" class="card-img-top img-fluid" alt="Blog logo">
                                 <div class="card-body">
@@ -284,23 +301,6 @@
                                 </div>
                             </div>
 
-                        </div>
-                        <!--Bug Tracker PROJECT-->
-                        <div class="col d-flex justify-content-center justify-content-md-end">
-                            <div class="card projectCard shadow p-3 mb-5 bg-body rounded">
-                                <img src="/img/atlas_logo.jpg" class="card-img-top img-fluid" alt="under construction logo">
-                                <div class="card-body">
-                                    <h5 class="card-title">Atlas Tracker</h5>
-                                    <p class="card-text">Problems? No Problem! Here is a full-stack bug tracker built with ASP.NET, MVC, C# and SQL.</p>
-                                </div>
-                                <div class="card-footer text-center">
-                                    <!--insert modal target-->
-                                    <!-- <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
-                                        data-bs-target="#AtlasTrackerModal">Coming Soon</button> -->
-                                        <div class="mainButton btn rounded-pill">Coming Soon</div>
-                                </div>
-
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -645,53 +645,53 @@
             </div>
         </div>
     </div>
-    <!--Blog modal-->
+    <!--AddressBook modal-->
     <div class="modal fade" id="AtlasAddressBookModal" tabindex="-1" aria-labelledby="AtlasAddressBookModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-xl modal-fullscreen-md-down modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="ExpenseTrackerLabel">Money Grow</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                    <h5 class="modal-title" id="AtlasAddressBookLabel">Black Book Pro</h5>
+                    <button type="button" data-bs-dismiss="modal" aria-label="Close">Close</button>
                 </div>
                 <div class="modal-body">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-md-5">
                                 <!--CAROUSEL-->
-                                <div id="carouselExpenseTracker" class="carousel slide" data-bs-ride="carousel">
+                                <div id="carouselAtlasAddressBook" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselExpenseTracker"
+                                        <button type="button" data-bs-target="#carouselAtlasAddressBook"
                                             data-bs-slide-to="0" class="active" aria-current="true"
                                             aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselExpenseTracker"
+                                        <button type="button" data-bs-target="#carouselAtlasAddressBook"
                                             data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselExpenseTracker"
+                                        <button type="button" data-bs-target="#carouselAtlasAddressBook"
                                             data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                        <button type="button" data-bs-target="#ExpenseTracker" data-bs-slide-to="3"
+                                        <button type="button" data-bs-target="#AtlasAddressBook" data-bs-slide-to="3"
                                             aria-label="Slide 4"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="/img/BugTrackerScreen1.jpg" class="d-block w-100"
-                                                alt="Money Grow Screenshot One">
+                                            <img src="/img/AddressBookLogin.PNG" class="d-block w-100"
+                                                alt="Black Book Pro Screenshot One">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="/img/BugTrackerScreen2.jpg" class="d-block w-100"
-                                                alt="Money Grow Screenshot Two">
+                                            <img src="/img/AddressBookCreateContact_680.png" class="d-block w-100"
+                                                alt="Black Book Pro Screenshot Two">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="/img/BugTrackerScreen3.jpg" class="d-block w-100"
-                                                alt="Money Grow Screenshot Three">
+                                            <img src="/img/AddressBookContacts.PNG" class="d-block w-100"
+                                                alt="Black Book Pro Screenshot Three">
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carouselExpenseTracker" data-bs-slide="prev">
+                                        data-bs-target="#carouselAtlasAddressBook" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carouselExpenseTracker" data-bs-slide="next">
+                                        data-bs-target="#carouselAtlasAddressBook" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
@@ -699,7 +699,7 @@
 
                             </div>
                             <div class="col-12 col-md-7">
-                                <h3>Money Grow</h3>
+                                <h3>Black Book Pro</h3>
                                 <div>
                                     <p>***CHANGE TEXT***Money Grow is a software defect tracking system.
                                         Commonly known as a bug tracker. Insectcide is built
@@ -728,7 +728,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" href="https://sjwonder-addressbook.herokuapp.com/" class="btn btn-secondary" data-bs-dismiss="modal">Go to Site</button>
 
                     </div>
                 </div>
